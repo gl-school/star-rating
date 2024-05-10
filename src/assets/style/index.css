@@ -2,13 +2,15 @@
 @import url('reset.css');
 
 body {
-  margin-top: 250px;
+
   font-family: "Nunito", sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f2f2f2;
+  overflow: hidden;
+  margin-top: 200px;
 }
 
 code {
@@ -72,7 +74,6 @@ code {
 
 ******************************************************************************/
 
-
 button {
   background-color: #007bff;
   color: #ffffff;
@@ -111,10 +112,6 @@ button {
   h2, img, p, button {
     margin-top: 10px;
   }
-}
-
-.closeButton {
-  position: relative;
 }
 
 img {

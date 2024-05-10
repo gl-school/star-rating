@@ -8,7 +8,6 @@ export default function Modal() {
 
   const [modalOpen, setModal] = useState(false);
 
-
   //I don't like arrow functions
   function closeModal() {
     setModal(false);

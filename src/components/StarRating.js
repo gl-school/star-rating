@@ -1,5 +1,4 @@
 
-
 import { useState } from 'react';
 import Star from './Star';
 import starData from '../assets/datasets/starDataset';
